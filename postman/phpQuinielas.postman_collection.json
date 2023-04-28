@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "b13652e4-13ec-436d-873e-95d7895765a4",
+		"name": "phpQuinielas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Equipos getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://phpQuinielas.test/equipos",
+					"protocol": "http",
+					"host": [
+						"phpQuinielas",
+						"test"
+					],
+					"path": [
+						"equipos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Equipos getById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://phpQuinielas.test/equipos/1",
+					"protocol": "http",
+					"host": [
+						"phpQuinielas",
+						"test"
+					],
+					"path": [
+						"equipos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Equipos insert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Valencia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://phpQuinielas.test/equipos",
+					"protocol": "http",
+					"host": [
+						"phpQuinielas",
+						"test"
+					],
+					"path": [
+						"equipos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Equipos update",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Hercules\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://phpQuinielas.test/equipos/1",
+					"protocol": "http",
+					"host": [
+						"phpQuinielas",
+						"test"
+					],
+					"path": [
+						"equipos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Equipos delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://phpQuinielas.test/equipos/1",
+					"protocol": "http",
+					"host": [
+						"phpQuinielas",
+						"test"
+					],
+					"path": [
+						"equipos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "cesar/php-quinielas",
+    "authors": [
+        {
+            "name": "Cesar Higuero Climent"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "phpQuinielas\\": ""
+        }
+    },
+    "require": {}
+}
